@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musicify</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./scripts/payscript.js"></script>
+  </head>
+  <body>
+    <div class="NavigationBar">
+      <div class="navhalf1">
+        <h1>Musicify</h1>
+      </div>
+      <div class="navhalf2">
+        <a href="/login.html">Login</a>
+        <a href="/register.html">Register</a>
+        <a href="/profile.html">Profile</a>
+        <a href="/pay.html">Pay</a>
+      </div>
+    </div>
+    <div class="holder">
+      <div class="pay">
+        <h1 class="registertitle">Pay</h1>
+        <form id="myform" action="/" method="GET">
+          <div class="forminput">
+            <label for="name">Name as on Card:</label>
+            <input type="text" id="name" name="name" placeholder="Name" />
+          </div>
+          <div class="forminput">
+            <label for="number">Enter Crad number: </label>
+            <input type="text" name="number" id="card" />
+          </div>
+          <div class="forminput">
+            <label for="cvv">Enter CVV: </label>
+            <input type="text" name="CVV" id="cvv" />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <div id="error"></div>
+      </div>
+    </div>
+  </body>
+</html>
