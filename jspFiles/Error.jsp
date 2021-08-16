@@ -6,6 +6,6 @@
 	</head> 
 
 	<body> 
-		<h1>Some Error has occured,Please try again later...</h1> 
+		<h1>Invalid Username or password</h1> 
 	</body> 
 </html>
